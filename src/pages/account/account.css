@@ -1,0 +1,148 @@
+.account{
+    flex: 4;
+    padding: 20px;
+}
+
+.accountTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accountAddBtn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.accountContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.accountShow{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #EDEDED;
+    margin-right: 20px;
+}
+
+.accountUpdate{
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #EDEDED;
+}
+
+.accountShowTop{
+    display: flex;
+    align-items: center;
+}
+
+.accountShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.accountShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.accountShowName{
+    font-weight: 600;
+}
+
+.accountShowTitle{
+    font-weight: 300;
+}
+
+.AccountShowDetail{
+    color: rgb(161, 161, 161);
+}
+
+.accountShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: gray;
+}
+
+.accountShowIcon{
+    font-size: 16px !important;
+}
+
+.AccountShowDetailInfo{
+    margin-left: 10px;
+}
+
+.accountUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.accountUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.accountUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accountUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.accountUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.accountUpdateInput{
+    border:none;
+    border-bottom: 1px solid grey;
+    width: 250px;
+    height: 30px;
+}
+
+
+.accountUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accountUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+
+.accountUpdateIcon{
+    cursor: pointer;
+}
+
+.accountUpdateBtn{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    font-weight: 600;
+    color: white ;
+}

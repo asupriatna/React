@@ -1,0 +1,29 @@
+.accountList{
+    flex: 4;
+}
+.accountListAccount{
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+.accountListImg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.accountListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #339163;
+    color:white;
+    cursor: pointer;
+    margin-right:10px ;
+}
+
+.accountListDelete{
+    color:#DA0037;
+    cursor: pointer;
+}

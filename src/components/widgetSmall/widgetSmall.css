@@ -1,0 +1,60 @@
+.widgetSmall{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.57); 
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.25);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.widgetSmallTitle{
+    font-size: 32px;
+    font-weight: 600;
+}
+.widgetSmallImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmallList{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.widgetSmallListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widgetSmallMember{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmallMemberName{
+    font-weight: 600;
+}
+
+.widgetSmallMemberTitle{
+    font-weight: 300;
+}
+
+.widgetSmallBtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+}
+
+.widgetSmallIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}

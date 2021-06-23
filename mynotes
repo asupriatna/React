@@ -1,0 +1,45 @@
+https://material-ui.com/components
+yarn add @material-ui/icons
+yarn add @material-ui/core
+yarn add @material-ui/data-grid
+
+https://recharts.org/
+yarn add recharts
+
+https://reactrouter.com/
+yarn add react-router-dom
+
+
+yarn add @material-ui/core @material-ui/icons recharts
+
+clean unnecessary file
+public/faviicon.ico, logo192.png, logo512.png, manifest.json
+src/app.css, app.test.js, index.css, logo.svg,reportWebvitals.js, setup.js
+
+clean unnecessary script
+add style font-family: 'Source Sans Pro', sans-serif;
+
+fonts google
+https://fonts.google.com/specimen/Source+Sans+Pro?query=source
+
+gambar 
+https://www.pexels.com/
+
+Box shadow generator
+https://html-css-js.com/css/generator/box-shadow/
+
+
+
+
+echo "# React" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/asupriatna/React.git
+git push -u origin main
+
+
+git remote add origin https://github.com/asupriatna/React.git
+git branch -M main
+git push -u origin main
